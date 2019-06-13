@@ -5,19 +5,18 @@ import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
 import android.widget.Button;
-import android.widget.ImageView;
 
-public class MainActivity extends AppCompatActivity {
+public class Verification extends AppCompatActivity {
 Button btn;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
-        btn=(Button) findViewById(R.id.next);
+        setContentView(R.layout.activity_verification);
+        btn=(Button) findViewById(R.id.btnnext);
         btn.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent intent= new Intent(MainActivity.this,Verification.class);
+                Intent intent=new Intent(Verification.this,Sms.class);
                 startActivity(intent);
             }
         });

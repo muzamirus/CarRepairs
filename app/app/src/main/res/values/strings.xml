@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">CarRepair</string>
+    <string name="welcome">Welcome!</string>
 </resources>
