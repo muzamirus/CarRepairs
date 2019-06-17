@@ -9,9 +9,16 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Sms"
-            android:label="Enter Code"
-            android:parentActivityName=".Verification"></activity>
+        <activity android:name=".Signup"
+            android:label="Sign up"></activity>
+        <activity
+            android:name=".Incorrectcode"
+            android:label="Verification Code"
+            android:parentActivityName=".Sms" />
+        <activity
+            android:name=".Sms"
+            android:label="Verification Code"
+            android:parentActivityName=".Verification" />
         <activity
             android:name=".Verification"
             android:label="Verification"
