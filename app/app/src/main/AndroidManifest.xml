@@ -9,9 +9,19 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".Sms"
+        <activity
+            android:name=".navigationdrawer"
+            android:label="@string/title_activity_navigationdrawer"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.carrepair.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Sms"
             android:label="Enter Code"
-            android:parentActivityName=".Verification"></activity>
+            android:parentActivityName=".Verification" />
         <activity
             android:name=".Verification"
             android:label="Verification"

@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Appinfo">
+
+    <!-- TODO: Update blank fragment layout -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to Car repair application"
+        android:textSize="30dp"
+        android:layout_centerInParent="true"
+        android:layout_above="@id/carr"
+        android:layout_marginBottom="100dp"
+        android:layout_marginLeft="100dp"
+        android:textStyle="bold"
+        />
+    <ImageView
+        android:id="@+id/carr"
+        android:layout_width="150dp"
+        android:layout_height="100dp"
+        android:layout_centerInParent="true"
+        android:src="@drawable/carr" />
+    <TextView
+        android:layout_below="@+id/carr"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="CAR REPAIR"
+        android:textSize="40dp"
+        android:layout_centerInParent="true"
+        android:textStyle="bold"
+        android:layout_marginTop="40dp"/>
+
+</RelativeLayout>
