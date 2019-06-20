@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "406610129280",
+    "firebase_url": "https://carrepairs-8974b.firebaseio.com",
+    "project_id": "carrepairs-8974b",
+    "storage_bucket": "carrepairs-8974b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:406610129280:android:925d8ca8f0adf241",
+        "android_client_info": {
+          "package_name": "com.example.carrepair"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "406610129280-vm4rnu0e4f960tbdkaofunu52ol3upoo.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.carrepair",
+            "certificate_hash": "aff717465a0413818d83b02740dfe639cc208623"
+          }
+        },
+        {
+          "client_id": "406610129280-t04riksv14t0a49fm87l1ap9jr77vbdm.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAWW2RJ3sqWNqPYb8YE52SWpsKHsaQ2qSM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "406610129280-t04riksv14t0a49fm87l1ap9jr77vbdm.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

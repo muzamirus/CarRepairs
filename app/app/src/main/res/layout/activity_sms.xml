@@ -20,8 +20,8 @@
         android:textAlignment="center" />
 
 
-    <EditText
-        android:id="@+id/editText"
+     <EditText
+        android:id="@+id/editTextCode"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="300dp"
@@ -30,10 +30,19 @@
         android:inputType="phone" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/nextsms"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Next"
-        android:layout_marginTop="400dp"/>
+        android:layout_marginTop="400dp"
+        android:textAllCaps="false"
+        android:textColor="#ffffff"/>
+    <ProgressBar
+        android:visibility="gone"
+        android:id="@+id/progressbar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/button"
+        android:layout_centerHorizontal="true"/>
 
 </RelativeLayout>
