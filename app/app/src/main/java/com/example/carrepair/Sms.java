@@ -1,5 +1,6 @@
 package com.example.carrepair;
 
+<<<<<<< HEAD
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
@@ -20,6 +21,21 @@ import com.google.firebase.auth.PhoneAuthProvider;
 
 import java.sql.Time;
 import java.util.concurrent.TimeUnit;
+=======
+import android.support.design.widget.NavigationView;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentTransaction;
+import android.support.v4.view.GravityCompat;
+import android.support.v4.widget.DrawerLayout;
+import android.support.v7.app.ActionBarDrawerToggle;
+import android.support.v7.app.AppCompatActivity;
+import android.os.Bundle;
+import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuItem;
+
+public class Sms extends AppCompatActivity  {
+>>>>>>> c76aadfd6e59ea6c3149f38587cc630b896b8285
 
 import androidx.annotation.NonNull;
 import androidx.appcompat.app.AppCompatActivity;
@@ -33,6 +49,7 @@ private EditText editText;
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_sms);
+<<<<<<< HEAD
         progressBar =findViewById(R.id.progressbar);
         FirebaseApp.initializeApp(this);
         mAuth=FirebaseAuth.getInstance();
@@ -112,3 +129,7 @@ private EditText editText;
         }
     };
 }
+=======
+    }}
+
+>>>>>>> c76aadfd6e59ea6c3149f38587cc630b896b8285

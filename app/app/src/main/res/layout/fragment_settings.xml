@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="SettingsFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+
+    <TextView
+        android:id="@+id/notificationHeader"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:text="Notification settings"
+        android:textAlignment="center"
+        android:textSize="30dp"
+        android:textStyle="bold" />
+
+
+
+    <TextView
+        android:id="@+id/updates"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/notificationHeader"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:text=" Updates"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/updates"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:text="notify when update for the app is available"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/deals"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/notificationHeader"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="100dp"
+        android:text=" Deals and promotions"
+        android:textSize="20dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/deals"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="notify when there are offers we think you'll like"
+        android:textSize="15dp" />
+
+    <TextView
+        android:id="@+id/invite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/notificationHeader"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="180dp"
+        android:text=" Invite a friend"
+        android:textSize="20dp" />
+
+    <ImageView
+        android:layout_width="25dp"
+        android:layout_height="30dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignBottom="@+id/invite"
+        android:src="@drawable/account" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/invite"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="15dp"
+        android:text="invite a friend via ..."
+        android:textSize="15dp" />
+
+    <ImageView
+        android:id="@+id/fb"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="43dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/fb" />
+
+    <ImageView
+        android:id="@+id/wh"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="300dp"
+        android:src="@drawable/wh" />
+
+    <Switch
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/updates"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="5dp"/>
+
+    <Switch
+        android:layout_below="@+id/deals"
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginTop="10dp"/>
+
+
+</RelativeLayout>

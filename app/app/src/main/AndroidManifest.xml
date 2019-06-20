@@ -9,10 +9,28 @@
         android:label="@string/app_name"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+<<<<<<< HEAD
         android:theme="@style/AppTheme"
         tools:replace="android:appComponentFactory"
         android:appComponentFactory="whateverString">
 
+=======
+        android:theme="@style/AppTheme">
+<<<<<<< HEAD
+        <activity
+            android:name=".navigationdrawer"
+            android:label="@string/title_activity_navigationdrawer"
+            android:parentActivityName=".MainActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="com.example.carrepair.MainActivity" />
+        </activity>
+        <activity
+            android:name=".Sms"
+            android:label="Enter Code"
+=======
+>>>>>>> c76aadfd6e59ea6c3149f38587cc630b896b8285
         <activity android:name=".Signup"
             android:label="Sign up"></activity>
         <activity
@@ -22,6 +40,7 @@
         <activity
             android:name=".Sms"
             android:label="Verification Code"
+>>>>>>> c35adb0d272860aae6f34891bfb67ff0d3c6c2a4
             android:parentActivityName=".Verification" />
         <activity
             android:name=".Verification"
