@@ -9,6 +9,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
+<<<<<<< HEAD
         <activity
             android:name=".navigationdrawer"
             android:label="@string/title_activity_navigationdrawer"
@@ -21,18 +22,34 @@
         <activity
             android:name=".Sms"
             android:label="Enter Code"
+=======
+        <activity android:name=".Signup"
+            android:label="Sign up"></activity>
+        <activity
+            android:name=".Incorrectcode"
+            android:label="Verification Code"
+            android:parentActivityName=".Sms" />
+        <activity
+            android:name=".Sms"
+            android:label="Verification Code"
+>>>>>>> c35adb0d272860aae6f34891bfb67ff0d3c6c2a4
             android:parentActivityName=".Verification" />
         <activity
             android:name=".Verification"
             android:label="Verification"
-            android:parentActivityName=".MainActivity" />
-        <activity android:name=".MainActivity">
+            android:parentActivityName=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity"/>
+
+
+
+
+
     </application>
 
 </manifest>

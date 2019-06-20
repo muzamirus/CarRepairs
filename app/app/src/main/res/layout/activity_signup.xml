@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Signup">
+
+    <EditText
+        android:id="@+id/username"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Username"
+        android:layout_marginTop="210dp"
+        android:layout_marginLeft="80dp"
+        android:paddingLeft="75dp"
+        android:paddingRight="75dp"/>
+    <EditText
+        android:id="@+id/email"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Email"
+        android:layout_marginTop="280dp"
+        android:layout_marginLeft="80dp"
+        android:paddingLeft="90dp"
+        android:paddingRight="90dp"/>
+    <Button
+        android:id="@+id/user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="User"
+        android:layout_marginLeft="30dp"
+        android:layout_marginTop="400dp"/>
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Mechanic"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="400dp"
+        />
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Supplier"
+        android:layout_marginLeft="280dp"
+        android:layout_marginTop="400dp"
+        />
+
+</RelativeLayout>
