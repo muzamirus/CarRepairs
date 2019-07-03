@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Supplier">
+
+    <ImageView
+        android:id="@+id/profilepicsupplier"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="50dp"
+        app:srcCompat="@drawable/account" />
+    <View
+        android:layout_below="@id/profilepicsupplier"
+        android:layout_marginTop="40dp"
+        android:layout_width="match_parent"
+        android:layout_height="2px"/>
+    <Button
+        android:layout_alignParentBottom="true"
+        android:id="@+id/finish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Finish"
+        android:textColor="#fff"
+        android:background="@color/colorPrimary"
+        android:layout_marginBottom="50dp"/>
+
+</RelativeLayout>

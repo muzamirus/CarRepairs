@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_MANAGE_ACCOUNT"
+            android:icon="@drawable/account"
+            android:title="MANAGE ACCOUNT" />
+        <item
+            android:id="@+id/nav_SETTINGS"
+            android:icon="@drawable/settings"
+            android:title="SETTINGS" />
+        <item
+            android:id="@+id/nav_APP_INFO"
+            android:icon="@drawable/info"
+            android:title="APP INFO" />
+        <item
+            android:id="@+id/nav_HELP"
+            android:icon="@drawable/help"
+            android:title="HELP" />
+    </group>
+
+</menu>
