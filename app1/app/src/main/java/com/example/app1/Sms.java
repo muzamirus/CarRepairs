@@ -78,8 +78,8 @@ private EditText editText;
         progressBar.setVisibility(View.VISIBLE);
         PhoneAuthProvider.getInstance().verifyPhoneNumber(
                 number,
-                60,
-                TimeUnit.SECONDS,
+                5,
+                TimeUnit.MINUTES,
                 TaskExecutors.MAIN_THREAD,
                 mCallBack
         );
